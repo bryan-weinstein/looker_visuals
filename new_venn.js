@@ -174,8 +174,7 @@ if(t==e.dx){for((r||f>e.dy)&&(f=e.dy);++u<o;)i=n[u],i.x=a,i.y=c,i.dy=f,a+=i.dx=M
       config.circleColors[8],
       config.circleColors[9],
     ];
-    var chart = venn
-      .VennDiagram(colorArray, config.circleFactor)
+    var chart = venn.VennDiagram(colorArray, config.circleFactor)
       .wrap(false)
       .fontSize(config.labelSize);
 
